@@ -4,7 +4,7 @@
   avatar: ./avatars/jpvalery.jpg
   featured: true
   social:
-    # - url: https://unsplash.com/jpvalery
+    - url: https://unsplash.com/jpvalery
     - url: https://twitter.com/jpvalery
     - url: https://instagram.com/jpvalery
     - url: https://linkedin.com/in/jpvalery
