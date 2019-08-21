@@ -5,7 +5,8 @@ module.exports = {
     siteUrl: `https://montrealphoto.club`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `We're a friendly gathering of photographers and we're hosting regular events in Montréal.
+Make sure you don't miss out our future events. Join now for free 👇`,
       maxWidth: 652,
     },
     social: [
@@ -37,8 +38,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `MontrealPhoto.club`,
+        short_name: `MontrealPhotoClub`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -50,6 +51,16 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint: "", // add your MC list endpoint here; see plugin repo for instructions
+      },
+    },
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-advanced-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: config.siteUrl,
+        sitemap:`${config.siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: '*' }],
       },
     },
   ],

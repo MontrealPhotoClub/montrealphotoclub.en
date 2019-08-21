@@ -1,5 +1,5 @@
 {
-  "name": "MontrealPhotoClub - Powered by Novela",
+  "name": "MontrealPhotoClub",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,10 @@
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
     "gatsby": "^2.13.41",
+    "gatsby-plugin-advanced-sitemap": "^1.4.0",
     "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-netlify": "^2.1.6",
+    "gatsby-plugin-robots-txt": "^1.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
