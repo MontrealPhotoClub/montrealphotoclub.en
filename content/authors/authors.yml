@@ -1,0 +1,16 @@
+- name: Jp Valery
+  bio: |
+    After hosting multiple events with Unsplash and the Metro Photo Challenge, I decided to make this a more formal club. So that we can keep having fun, learning from each other, and meeting other fine folks.
+  avatar: ./avatars/jpvalery.jpg
+  featured: true
+  social:
+    - name: github
+      url: https://github.com/jpvalery
+    - name: twitter
+      url: https://twitter.com/jpvalery
+    - name: instagram
+      url: https://instagram.com/jpvalery
+    - name: linkedin
+      url: https://linkedin.com/in/jpvalery
+    - name: facebook
+      url: https://facebook.com/jp.valery
