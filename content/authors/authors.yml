@@ -4,8 +4,8 @@
   avatar: ./avatars/jpvalery.jpg
   featured: true
   social:
-    - name: github
-      url: https://github.com/jpvalery
+    - name: unsplash
+      url: https://unsplash.com/jpvalery
     - name: twitter
       url: https://twitter.com/jpvalery
     - name: instagram
@@ -14,3 +14,5 @@
       url: https://linkedin.com/in/jpvalery
     - name: facebook
       url: https://facebook.com/jp.valery
+    - name: github
+      url: https://github.com/jpvalery
