@@ -22,3 +22,5 @@ ratings:
    paths:
     - "**.js"
     - "**.jsx"
+    - "**.ts"
+    - "**.tsx"
