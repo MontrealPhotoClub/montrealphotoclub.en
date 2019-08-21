@@ -5,9 +5,9 @@ module.exports = {
     siteUrl: `https://montrealphoto.club`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `We're a friendly gathering of photographers and we're hosting regular events in Montréal.
-Make sure you don't miss out our future events. Join now for free 👇`,
-      maxWidth: 652,
+      heading: `We're a friendly gathering of photographers and we're hosting regular events in Montréal.`,
+      subcta: `Make sure you don't miss out our future events. Join now for free 👇`,
+      maxWidth: 1080,
     },
     social: [
       {
