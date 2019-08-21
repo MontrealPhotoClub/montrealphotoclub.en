@@ -58,8 +58,8 @@ Make sure you don't miss out our future events. Join now for free 👇`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: config.siteUrl,
-        sitemap:`${config.siteUrl}/sitemap.xml`,
+        host: `https://montrealphoto.club`,
+        sitemap:`https://montrealphoto.club/sitemap.xml`,
         policy: [{ userAgent: '*' }],
       },
     },
