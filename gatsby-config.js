@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `MontrealPhotoClub - Powered by Novela`,
+    title: `Montréal Photo Club 📷`,
     name: `MontrealPhotoClub`,
     siteUrl: `https://montrealphoto.club`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `A friendly gathering of photographers in Montréal from all horizons and skills.`,
     hero: {
       heading: `We're a friendly gathering of photographers and we're hosting regular events in Montréal.`,
       subcta: `Make sure you don't miss out our future events. Join now for free 👇`,
