@@ -8,18 +8,18 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.4.1",
-    "gatsby": "^2.13.41",
-    "gatsby-plugin-advanced-sitemap": "^1.4.0",
+    "@narative/gatsby-theme-novela": "0.4.6",
+    "gatsby": "2.14.1",
+    "gatsby-plugin-advanced-sitemap": "1.4.1",
     "gatsby-plugin-mailchimp": "^5.1.2",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-netlify": "^2.1.6",
+    "gatsby-plugin-manifest": "2.2.9",
+    "gatsby-plugin-netlify": "2.1.10",
     "gatsby-plugin-robots-txt": "^1.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "eslint": "^6.2.1",
+    "eslint": "6.2.2",
     "eslint-config-gatsby-standard": "^2.2.0",
     "prettier": "^1.18.2",
     "stylelint-config-prettier": "^5.2.0",
