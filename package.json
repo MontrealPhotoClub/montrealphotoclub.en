@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "0.4.6",
-    "gatsby": "2.14.1",
+    "gatsby": "2.14.2",
     "gatsby-plugin-advanced-sitemap": "1.4.1",
     "gatsby-plugin-mailchimp": "5.1.2",
     "gatsby-plugin-manifest": "2.2.9",
