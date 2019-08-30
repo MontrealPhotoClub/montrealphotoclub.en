@@ -18,6 +18,14 @@ module.exports = {
         name: `instagram`,
         url: `https://instagram.com/montrealphotoclub`,
       },
+      {
+        name: `facebook`,
+        url: `https://facebook.com/montrealphotoclub`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/montrealphotoclub`,
+      },
     ],
   },
   plugins: [
