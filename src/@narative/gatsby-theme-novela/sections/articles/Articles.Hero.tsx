@@ -10,6 +10,8 @@ import { IAuthor } from "@types";
 
 import { GridLayoutContext } from "./Articles.List.Context";
 
+import Emailfield from "./Emailfield";
+
 const authorQuery = graphql`
   {
     site: allSite {
@@ -19,6 +21,8 @@ const authorQuery = graphql`
             hero {
               heading
               maxWidth
+              dontmiss
+              join
             }
           }
         }
@@ -46,7 +50,8 @@ function ArticlesHero({ authors }: IAuthor) {
     <Section relative id="Articles__Hero">
       <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
         <HeroHeading>{hero.heading}</HeroHeading>
-        <SubctaHeading>{hero.subcta}</SubctaHeading>
+        <Join>{hero.dontmiss}<br />{hero.join}</Join>
+        <Emailfield />
       </HeadingContainer>
       <SubheadingContainer>
         <Bio author={featuredAuthor} />
@@ -114,6 +119,7 @@ const HeadingContainer = styled.div`
 
   ${mediaqueries.tablet`
     width: 100%;
+    margin: 5rem 0;
   `}
 `;
 
@@ -133,19 +139,20 @@ const HeroHeading = styled.h1`
   `}
 `;
 
-const SubctaHeading = styled.h2`
+const Join = styled.h2`
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
+  font-size: 38px;
   line-height: 1.15;
+  margin-top: 3rem;
   color: ${p => p.theme.colors.primary};
 
   ${mediaqueries.desktop`
-    font-size: 38px
+    font-size: 28px
   `}
 
   ${mediaqueries.phablet`
-    font-size: 32px;
+    font-size: 24px;
   `}
 `;
 
