@@ -1259,10 +1259,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@narative/gatsby-theme-novela@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.6.0.tgz#bd3a351da1e3d4699b83df5ad5f6f3cdcedc84da"
-  integrity sha512-FN/AGS45B1rQbYOBuC0Zk66hviOIpUU7z+Ffew4TgyYcu80/KuhDPMG1mpJML342E+0u/MF5Te1gCICdBnbD2g==
+"@narative/gatsby-theme-novela@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.6.1.tgz#e849aceddef64a419662a8ac765be9d9e4d2efed"
+  integrity sha512-fbLraer5JmzGtqIghvLTCHgY6k8uqoEZoUpQzKDpFhqBl8FkWE+1A/RsvtdA4aGf7RyM1biBbJG5t3ohvrKYcQ==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
@@ -1279,7 +1279,7 @@
     gatsby-plugin-mdx "^1.0.32"
     gatsby-plugin-react-helmet "^3.1.2"
     gatsby-plugin-sharp "^2.2.9"
-    gatsby-plugin-theme-ui "^0.2.34"
+    gatsby-plugin-theme-ui "^0.2.40"
     gatsby-plugin-typescript "^2.1.2"
     gatsby-remark-autolink-headers "^2.1.3"
     gatsby-remark-check-links "^1.1.5"
@@ -1302,7 +1302,7 @@
     react-outside-click-handler "^1.2.4"
     remark-slug "^5.1.2"
     request "^2.88.0"
-    theme-ui "^0.2.21"
+    theme-ui "^0.2.40"
     typeface-merriweather "^0.0.72"
 
 "@nodelib/fs.scandir@2.1.2":
@@ -6320,10 +6320,10 @@ gatsby-plugin-sharp@^2.2.9:
     sharp "^0.23.0"
     svgo "^1.3.0"
 
-gatsby-plugin-theme-ui@^0.2.34:
-  version "0.2.38"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.38.tgz#519afdd63ffe4cf3824f1150a933f2ff57b549b3"
-  integrity sha512-4HUf5EoYQAuxrSyLRVyrYNzqOVnj4hNuPorQk55l8kvTR1MdL3URaoQmsES895cb6+mNOb4/ODb66tFCOdwjwQ==
+gatsby-plugin-theme-ui@^0.2.40:
+  version "0.2.40"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.40.tgz#c62a951346d2aa2bd009fdcd90051dd6e14625f4"
+  integrity sha512-oCfB8xa8ogad4jAXWA1rtuaMFj2b9fylIkQx8uOSFf45gw3tr09zuQxPQVYbSoRK8BknagRwmEVkINJNI4aOHg==
 
 gatsby-plugin-typescript@^2.1.2:
   version "2.1.5"
@@ -13789,10 +13789,10 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-theme-ui@^0.2.21:
-  version "0.2.38"
-  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.38.tgz#7d294b6bf8b5bae27e36cccb41c0eca60309f0c9"
-  integrity sha512-nPjZlDyRISPu1EYlYHOUT5IKFd22cSEg3i2Kr9EH/mbtD3ezTAqAdE7SKzjUe9tFyagJ9y0UbY/tUI+SENu8wQ==
+theme-ui@^0.2.40:
+  version "0.2.40"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.40.tgz#070c167ce7dec64520f6468138d91168ea68152f"
+  integrity sha512-sFuGY5uD+8LqD8BLHMSrsYC+0PIYyZemosDVk1zQ9Eiw17nCNQ6oz2pKfyH6YD4qCtXfw+voxjF47Lu2rqHUOA==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.1"
     "@styled-system/css" "^5.0.16"
