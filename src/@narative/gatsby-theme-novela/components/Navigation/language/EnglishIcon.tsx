@@ -2,9 +2,9 @@ import React from "react";
 
 const CopyIcon = ({ fill = "#08080B", ...props }) => (
   <svg
-    width="15"
-    height="19"
-    viewBox="0 0 15 19"
+    width="32"
+    height="28"
+    viewBox="0 0 57.418 63.418"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
