@@ -1259,10 +1259,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@narative/gatsby-theme-novela@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.6.1.tgz#e849aceddef64a419662a8ac765be9d9e4d2efed"
-  integrity sha512-fbLraer5JmzGtqIghvLTCHgY6k8uqoEZoUpQzKDpFhqBl8FkWE+1A/RsvtdA4aGf7RyM1biBbJG5t3ohvrKYcQ==
+"@narative/gatsby-theme-novela@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.6.2.tgz#c00f1ee1b719ef1a7b4a193c3554eda06b80da17"
+  integrity sha512-zR2nonOBxviy+AM//1WJyjBZ9gi/O4+eqfV1Xakdro95FjjaB7QiSzzom9lzFW0pHz9hyqvukq+SXmesd4X+WA==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
@@ -1271,6 +1271,7 @@
     adm-zip "^0.4.13"
     babel-plugin-emotion "^10.0.14"
     contentful-cli "^0.36.0"
+    gatsby "^2.15.7"
     gatsby-image "^2.2.7"
     gatsby-paginate "^1.1.0"
     gatsby-plugin-emotion "^4.1.2"
@@ -6545,7 +6546,7 @@ gatsby-transformer-yaml@^2.2.4:
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-gatsby@2.15.7:
+gatsby@2.15.7, gatsby@^2.15.7:
   version "2.15.7"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.15.7.tgz#209b1f8cfff0caec2e3313c96b9280b981896620"
   integrity sha512-eVNDvyk84WbaLOcecv0sx9Xdm6GdSsHNwvf5gq//weQrvuTRSmUl3D7ROQ1RQWKLLNttY4fKnoNiFyLj3n0eXw==
