@@ -39,6 +39,7 @@ function Footer() {
           </FooterText>
           <div>
             <SocialLinks links={social} />
+            <a href="https://www.netlify.com" rel="noopener noreferrer"><Sponsor src="https://www.netlify.com/img/global/badges/netlify-light.svg" /></a>
           </div>
         </FooterContainer>
       </Section>
@@ -106,4 +107,9 @@ const FooterGradient = styled.div`
   pointer-events: none;
   background: ${p => p.theme.colors.gradient};
   transition: ${p => p.theme.colorModeTransition};
+`;
+
+const Sponsor = styled.img`
+  margin-left: 20px;
+  height: 32px;
 `;
