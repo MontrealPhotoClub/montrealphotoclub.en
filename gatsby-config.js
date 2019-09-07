@@ -45,6 +45,13 @@ module.exports = {
       },
     },
     {
+     resolve: 'gatsby-plugin-fathom',
+     options: {
+       trackingUrl: 'jpvalery.usesfathom.com',
+       siteId: 'IOBNXYHX'
+     },
+   },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `MontrealPhoto.club`,
@@ -64,6 +71,14 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-advanced-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: `https://montrealphoto.club`,
+        sitemap:`https://montrealphoto.club/sitemap.xml`,
+        policy: [{ userAgent: '*' }],
+      },
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
