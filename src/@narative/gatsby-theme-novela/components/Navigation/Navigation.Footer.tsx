@@ -39,7 +39,7 @@ function Footer() {
           </FooterText>
           <div>
             <SocialLinks links={social} />
-            <a href="https://www.netlify.com" rel="noopener noreferrer"><Sponsor src="https://www.netlify.com/img/global/badges/netlify-light.svg" /></a>
+            <a href="https://www.netlify.com" rel="noopener noreferrer"><Sponsor src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys on Netlify" title="Deploys on Netlify" /></a>
           </div>
         </FooterContainer>
       </Section>

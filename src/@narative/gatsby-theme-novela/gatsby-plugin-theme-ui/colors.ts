@@ -4,10 +4,10 @@ export default {
   prism,
 
   primary: "#000",
-  secondary: "#73737D",
-  grey: "#73737D",
+  secondary: "#545454",
+  grey: "#545454",
   background: "#fafafa",
-  accent: "#6166DC",
+  accent: "#373DD2",
   hover: "rgba(0, 0, 0, 0.07)",
   gradient: "linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%)",
   articleText: "#08080B",
@@ -21,7 +21,7 @@ export default {
   inputBackground: "rgba(0, 0, 0, 0.05)",
   modes: {
     dark: {
-      grey: "#73737D",
+      grey: "#545454",
       primary: "#fff",
       secondary: "#fff",
       accent: "#E9DAAC",
