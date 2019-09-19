@@ -21,7 +21,7 @@ export default {
   inputBackground: "rgba(0, 0, 0, 0.05)",
   modes: {
     dark: {
-      grey: "#545454",
+      grey: "#A2A2A2",
       primary: "#fff",
       secondary: "#fff",
       accent: "#E9DAAC",
