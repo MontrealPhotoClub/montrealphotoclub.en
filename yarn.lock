@@ -1500,10 +1500,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@narative/gatsby-theme-novela@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.8.2.tgz#764c4b437c4e896091942b0efb3a5209c8ce98e6"
-  integrity sha512-wyl6WRxCcsS4edYMgkxhn4lEGFCLBkWJ7JOWS0qoiGpkzThOA8r5VTBsJIoqnVR1G0STGQ36CjZ0r2I/xWTqLQ==
+"@narative/gatsby-theme-novela@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.8.3.tgz#a20e451eb0dcd81a2cdbf56ff68e913f3805fcf4"
+  integrity sha512-B7iMeY3zB/nElV1KHAdXsJZRF255Ke7MkM6H/A2JScbH/5hgEx1jrsiiGKdcLAX6zF8UZQBc6DFynTA0FCFkYA==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
