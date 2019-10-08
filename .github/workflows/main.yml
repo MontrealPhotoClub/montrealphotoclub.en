@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Yarn & Percy CI
+      uses: jpvalery/yarn-percy-ci@master
+      env:
+        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
