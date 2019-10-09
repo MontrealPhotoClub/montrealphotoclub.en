@@ -6,7 +6,7 @@ on:
     - master
 
 jobs:
-  build:
+  CI_Workflow:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +19,12 @@ jobs:
       run: yarn percy snapshot ./public
       env:
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+        
+  Action_Workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1 
     - name: Action> Yarn & Percy CI
       uses: jpvalery/yarn-percy-ci@master
       env:
