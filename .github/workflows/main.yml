@@ -16,7 +16,9 @@ jobs:
     - name: Yarn Build
       run: yarn build
     - name: Percy
-      run: yarn percy snapshot
+      run: yarn percy snapshot ./public
+      env:
+        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
     - name: Action> Yarn & Percy CI
       uses: jpvalery/yarn-percy-ci@master
       env:
