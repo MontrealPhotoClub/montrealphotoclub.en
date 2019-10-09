@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Borales/actions-yarn
+      uses: Borales/actions-yarn@1.1.0 
     - name: Yarn & Percy CI
       uses: jpvalery/yarn-percy-ci@master
       env:
