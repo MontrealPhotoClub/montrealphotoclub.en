@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Yarn Install
+      run: yarn install
     - name: Yarn Build
-      uses: Borales/actions-yarn@1.1.0
-      args: install
-    - name: Yarn Test
-      uses: Borales/actions-yarn@1.1.0
-      args: build
+      run: yarn build
     - name: Yarn & Percy CI
       uses: jpvalery/yarn-percy-ci@master
       env:
