@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "0.9.1",
-    "gatsby": "2.16.1",
+    "gatsby": "2.16.3",
     "gatsby-plugin-advanced-sitemap": "1.4.4",
     "gatsby-plugin-fathom": "1.1.0",
     "gatsby-plugin-mailchimp": "5.1.2",
@@ -30,6 +30,6 @@
     "stylelint-processor-styled-components": "1.8.0"
   },
   "resolutions": {
-    "gatsby": "2.16.1"
+    "gatsby": "2.16.3"
   }
 }
