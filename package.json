@@ -20,7 +20,7 @@
     "react-dom": "16.9.0"
   },
   "devDependencies": {
-    "eslint": "6.5.1",
+    "eslint": "6.6.0",
     "eslint-config-gatsby-standard": "2.2.0",
     "percy": "0.19.1",
     "prettier": "1.18.2",
