@@ -24,7 +24,7 @@
     "eslint-config-gatsby-standard": "2.2.0",
     "percy": "0.20.6",
     "prettier": "1.19.1",
-    "stylelint-config-prettier": "8.0.0",
+    "stylelint-config-prettier": "8.0.1",
     "stylelint-config-standard": "19.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.9.0"
