@@ -10,7 +10,7 @@
   "dependencies": {
     "@narative/gatsby-theme-novela": "0.13.3",
     "gatsby": "2.19.23",
-    "gatsby-plugin-advanced-sitemap": "1.5.1",
+    "gatsby-plugin-advanced-sitemap": "1.5.2",
     "gatsby-plugin-fathom": "1.2.0",
     "gatsby-plugin-mailchimp": "5.1.2",
     "gatsby-plugin-manifest": "2.2.42",
