@@ -52,18 +52,6 @@ module.exports = {
      },
    },
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `MontrealPhoto.club`,
-        short_name: `MontrealPhotoClub`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
-        display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
-    },
-    {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint: "https://club.us12.list-manage.com/subscribe/post?u=82813799388b14db2174b8591&amp;id=428156c588", // add your MC list endpoint here; see plugin repo for instructions
