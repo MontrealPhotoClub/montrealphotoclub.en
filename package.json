@@ -8,7 +8,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "0.14.0",
+    "@narative/gatsby-theme-novela": "0.14.2",
     "gatsby": "2.20.20",
     "gatsby-plugin-advanced-sitemap": "1.5.2",
     "gatsby-plugin-fathom": "1.2.0",
