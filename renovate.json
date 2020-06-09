@@ -2,5 +2,11 @@
   "extends": [
     "config:base"  ],
   "prHourlyLimit": 0,
+  "prConcurrentLimit": 3,
+  "rebaseWhen": "conflicted",
+  "separateMinorPatch": true,
+  "patch": {
+    "enabled": false
+  },
   "reviewers": ["jpvalery"]
 }
