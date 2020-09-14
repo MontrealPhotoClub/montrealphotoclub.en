@@ -21,7 +21,7 @@
   "devDependencies": {
     "eslint": "7.6.0",
     "eslint-config-gatsby-standard": "2.2.0",
-    "percy": "0.26.9",
+    "percy": "0.28.2",
     "prettier": "2.0.5",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-config-standard": "20.0.0",
