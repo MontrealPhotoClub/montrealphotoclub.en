@@ -15,8 +15,8 @@
     "gatsby-plugin-mailchimp": "5.2.2",
     "gatsby-plugin-netlify": "2.3.3",
     "gatsby-plugin-robots-txt": "1.5.1",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "eslint": "7.9.0",
