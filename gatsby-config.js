@@ -45,12 +45,15 @@ module.exports = {
       },
     },
     {
-     resolve: 'gatsby-plugin-fathom',
-     options: {
-       trackingUrl: 'jpvalery.usesfathom.com',
-       siteId: 'IOBNXYHX'
-     },
-   },
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: '0e60a8fc-0072-47db-91a2-0ac805f433c7',
+        srcUrl: 'https://analytics.jpvalery.com/umami.js',
+        includeInDevelopment: false,
+        autoTrack: true,
+        respectDoNotTrack: true
+      },
+    },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
